@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style/sidebooks.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="container-fluid text-white">
+    <h1 align="center" class="position-relative bg-info text-light p-3">Welcome To Book Showcase <a href="index.html"
+            class="position-absolute fs-5" style="right: 20px; text-decoration: none;">Home</a></h1>
+    <div class="content">
+        <h2>Book 1 : Ratan Tata : A Life</h2>
+        <img src="public/images/book1.jpg" alt="">
+
+        <button class="accordion-button  bg-primary text-light p-3 w-25 mt-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faq1">Gener</button>
+        <div class="collapse" id="faq1">
+            Industrialisation & Industrial History
+        </div>
+        <br>
+        <button class="accordion-button bg-primary text-light p-3 w-25" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faq2">Index Page</button>
+        <div class="collapse" id="faq2">
+            Part 1: The Beginning <br>
+            Part 2: Becoming Ratan Tata
+
+        </div>
+        <br>
+        <button class="accordion-button bg-primary text-light p-3 w-25" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faq3">Author</button>
+        <div class="collapse" id="faq3">
+            Thomas Mathew
+        </div>
+        <br>
+        <button class="accordion-button bg-primary text-light p-3 w-25" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faq4 ">Overview</button>
+        <div class="collapse" id="faq4">
+            "Ratan Tata – A Life" by Thomas Mathew IAS is a well-written and insightful book about one of India’s most
+            admired leaders. It shares fascinating details about his life, including many lesser-known facts. The author
+            has
+            put in great effort to research and present Tata’s journey as a businessman, visionary, and philanthropist.
+            The
+            book is engaging and inspiring, making it a great read for anyone interested in leadership,
+            entrepreneurship, or
+            the Tata legacy.
+        </div>
+        <br>
+        <button class="accordion-button bg-primary text-light p-3 w-25" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faq5">Competatve Exame Relivance</button>
+        <div class="collapse" id="faq5">
+            Highly
+            Reccomended </div>
+        <br>
+        <button class="accordion-button bg-primary text-light p-3 w-25" type="button" data-bs-toggle="collapse"
+            data-bs-target="#faq6"> Puschase Link</button>
+        <div class="collapse" id="faq6">
+            <a href="https://amzn.in/d/4Be9XgU">Amazon</a>
+        </div>
+        <br>
+        <form action="">
+            <div class="h3">Feedback Form</div>
+            <dl class="w-50 border border-light p-2 rounded-3">
+                <dt><label for="">Name</label></dt>
+                <dd><input class="form-control" type="text" name="nametxt"></dd>
+                <br>
+                <dt>Feedback</dt>
+                <dd><textarea name="rating" id="" cols="48" rows="8"></textarea></dd>
+                <button class="btn btn-primary w-50">Submit Feedback</button>
+            </dl>
+        </form>
+    </div>
+    </div>
+
+</body>
+
+</html>
