@@ -3,16 +3,29 @@
         border: 1px solid transparent;
         border-radius: 20px;
         padding: 10px;
-        background-color: chocolate;
+        background-color:darkslategray;
         
     }
-    
+    form{
+        width: 365px;
+    }
+    #faq1,#faq2,#faq3,#faq4,#faq5,#faq6{
+        margin-left: 40px;
+        margin-top: 10px;
+    }    
 }
 @media screen  and (orientation : portrait){
     .content{
         border: 1px solid transparent;
         border-radius: 20px;
         padding: 10px;
-        background-color: chocolate;
+        background-color: darkslategray;
+    }
+    #faq1,#faq2,#faq3,#faq4,#faq5,#faq6{
+        margin-left: 40px;
+        margin-top: 10px;
+    } 
+    form{
+        width: 365px;
     }
 }
